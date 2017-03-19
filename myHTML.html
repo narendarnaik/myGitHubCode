@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+<title>This is title of sample practice</title>
+<style>
+div {
+	background-color:pink;
+	margin:auto;
+	width:30%;
+	height:60%;
+	padding-top:50px;
+	padding-left:20px;
+	align-text:center;
+}
+
+div.mySum {
+	margin:auto;
+	padding-top:20px;
+	padding-right:70px;
+}
+
+p {
+	color:black;
+}
+
+</style>
+</head>
+
+<body>
+<div>
+<h3> Javascript Addition Example! </h3>
+	Value1: <input type="text" id="var1" /> <br>
+	Value2: <input type="text" id="var2" /> <br>
+	<div class="mySum">
+		<input type="submit" value="Sum" onclick="addNumbers()" />
+	</div>
+<p id="p1"> Display output here </p>
+
+
+</div>
+
+<script>
+
+//codepen.io
+function addNumbers() {
+	this.style.padding-left = 50px;
+var v1 = parseInt(document.getElementById("var1").value);
+var v2 = parseInt(document.getElementById("var2").value);
+var sum = v1 + v2;
+alert("Output of Sum:" + sum);
+document.getElementById("p1").innerHTML = sum;
+
+}
+
+</script>
+
+
+</body>
+
+</html>

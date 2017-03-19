@@ -1,0 +1,17 @@
+body {
+	margin:;
+}
+
+h2 {
+	color:green;
+	left:200;
+
+}
+div {
+	background-color:pink;
+	color:blue; 
+	margin:auto;
+	width:50%;
+	height:30%;
+	align-text:center;
+}
